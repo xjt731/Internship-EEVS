@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview_1"
+                android:padding="15dp"
+                android:text="Individual Tax Return"
+                android:textColor="#12206E"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:id="@+id/image_view_1"
+                android:padding="15dp"
+                app:srcCompat="@drawable/indi_tax_return"
+                app:layout_constraintTop_toBottomOf="@+id/textview_1"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="For tax return purposes, Australian students have to declare their income earned both in Australia and internationally. Slightly different rules apply to international students living in Australia on a temporary visa.
+If you’re a temporary resident, most of your foreign income is not taxed in Australia, and you don’t declare it on your Australian tax return. You only declare income you derive in Australia, plus any income you earn from employment or services performed overseas while you are a temporary resident of Australia.
+When it comes to lodging your Tax Returns in Australia, you will need to consider your income from all sources and expenses which you may claim as deductions.
+Based on this information, the ATO will determine whether you are eligible for a tax refund or need to pay extra taxes. The current COVID 19 pandemic may have impacted your income, or you may be entitled to other deductions.
+We have a tax team headed by an experienced Registered Tax Agent. We have a ‘Same Day Lodgement’ promise and service rated excellent by our previous clients.
+Our agent will carefully assess all your income and expenses documents before lodging the application with the ATO. So, you can rest assured while our team manages this process for you.
+
+"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/image_view_1"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="-4dp"
+                app:srcCompat="@drawable/logo" />
+
+
+            <TextView
+                android:layout_width="377dp"
+                android:layout_height="450dp"
+                android:layout_below="@+id/imageView"
+                android:padding="15dp"
+                android:text="In order to achieve the free flow of goods and services, with work and capital between the member countries, they needed to establish mutual politics in areas as diverse as agriculture, transport, and when they concerned with a far wider range of Issues.In order to achieve the free flow of goods and services, with work and capital between the member countries, they needed to establish mutual politics in areas as diverse as agriculture, transport, and when they concerned with a far wider range of Issues."
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>-->
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inquire"
+        />
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview_1"
+                android:padding="15dp"
+                android:text="Banking in Australia"
+                android:textColor="#12206E"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:id="@+id/image_view_1"
+                android:padding="15dp"
+                app:srcCompat="@drawable/banking_in_aus"
+                app:layout_constraintTop_toBottomOf="@+id/textview_1"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Say hello to the Commonwealth Bank of Australia
+There’s a lot to look forward to when you move to Australia to study. Not only can you enjoy world-class educational facilities, but every day can be an adventure. Whether you’re surfing at a sunny beach, tasting fresh seafood or discovering Australian wildlife there’s always something to look forward to. We want to make your move to the sunny side even smoother by introducing you to the Commonwealth Bank of Australia. They’re known to Aussies as CommBank.
+Meet the bank more new arrivals choose
+CommBank is Australia’s largest bank. They’ve been helping Australian dreams come true since 1911, and support more people moving to Australia than any other bank.
+
+With a variety of products and services, you can get your banking sorted in no time. Find helpful hints and tips about moving to and studying in Australia by visiting their Moving to Australia website.
+"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/image_view_1"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="-4dp"
+                app:srcCompat="@drawable/logo" />
+
+
+            <TextView
+                android:layout_width="377dp"
+                android:layout_height="450dp"
+                android:layout_below="@+id/imageView"
+                android:padding="15dp"
+                android:text="In order to achieve the free flow of goods and services, with work and capital between the member countries, they needed to establish mutual politics in areas as diverse as agriculture, transport, and when they concerned with a far wider range of Issues.In order to achieve the free flow of goods and services, with work and capital between the member countries, they needed to establish mutual politics in areas as diverse as agriculture, transport, and when they concerned with a far wider range of Issues."
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>-->
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inquire"
+        />
+</LinearLayout>

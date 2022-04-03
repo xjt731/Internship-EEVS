@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview_1"
+                android:padding="15dp"
+                android:text="Visa Application"
+                android:textColor="#12206E"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:id="@+id/image_view_1"
+                android:padding="15dp"
+                app:srcCompat="@drawable/visa_application"
+                app:layout_constraintTop_toBottomOf="@+id/textview_1"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Australia offers several ways to acquire a study or work visa to international immigrants. It has one of the most dynamic immigration laws that adapt to the changing socio-economic realities of the nation. As a leader in the industry, our team remains well informed of these changing dynamics and offer expert guidance for a wide range of Australian visas.
+
+Meeting the criteria and submitting the necessary documents are significant aspects that need careful consideration.  Our experienced team can assist you with identifying the best pathway from the range of visa options available to you. "
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/image_view_1"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="-4dp"
+                app:srcCompat="@drawable/logo" />
+
+
+            <TextView
+                android:layout_width="377dp"
+                android:layout_height="450dp"
+                android:layout_below="@+id/imageView"
+                android:padding="15dp"
+                android:text="In order to achieve the free flow of goods and services, with work and capital between the member countries, they needed to establish mutual politics in areas as diverse as agriculture, transport, and when they concerned with a far wider range of Issues.In order to achieve the free flow of goods and services, with work and capital between the member countries, they needed to establish mutual politics in areas as diverse as agriculture, transport, and when they concerned with a far wider range of Issues."
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>-->
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inquire"
+        />
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <ImageView
+        android:id="@+id/pic_1"
+        android:layout_width="151dp"
+        android:layout_height="137dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="37dp"
+        android:src="@drawable/pic_1" />
+
+    <ImageView
+        android:id="@+id/pic_2"
+        android:layout_width="151dp"
+        android:layout_height="137dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="212dp"
+        android:src="@drawable/pic_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp"
+        android:text="Services"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+        app:labelVisibilityMode="labeled"
+        app:itemBackground="@color/purple_500"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu" />
+
+    <ImageView
+        android:id="@+id/pic_3"
+        android:layout_width="141dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="207dp"
+        app:srcCompat="@drawable/pic_5" />
+
+    <ImageView
+        android:id="@+id/pic_4"
+        android:layout_width="140dp"
+        android:layout_height="129dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="57dp"
+        app:srcCompat="@drawable/pic_4" />
+
+    <ImageView
+        android:id="@+id/pic_5"
+        android:layout_width="143dp"
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="54dp"
+        app:srcCompat="@drawable/pic_3" />
+
+    <ImageView
+        android:id="@+id/pic_6"
+        android:layout_width="127dp"
+        android:layout_height="128dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="203dp"
+        app:srcCompat="@drawable/pic_6" />
+
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview_1"
+                android:padding="15dp"
+                android:text="Health Insurance (OSHC and OVHC)"
+                android:textColor="#12206E"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:id="@+id/image_view_1"
+                android:padding="15dp"
+                app:srcCompat="@drawable/health_insurance"
+                app:layout_constraintTop_toBottomOf="@+id/textview_1"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Studying in Australia as an international student requires covering medical and hospital expenses apart from the university fees, accommodation, etc. Your health is as much a priority as your academic goals. However, Medicare is not provided for international students. Instead, a special health policy in Australia called OSHC or Overseas Student Health Cover has been set up for international applicants.
+OSHC is an international student health cover policy that backs you up for the medical and hospital costs. The applicant must ensure to purchase this health policy to be deemed eligible for having medical expenses covered while in Australia.
+The international student applicant and their dependent, if any, have to acquire a health policy that covers the academic course duration.
+Students who have joined courses of three months or less can acquire a tourist visa and a private international student insurance program that covers this duration.
+"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/image_view_1"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="-4dp"
+                app:srcCompat="@drawable/logo" />
+
+
+            <TextView
+                android:layout_width="377dp"
+                android:layout_height="450dp"
+                android:layout_below="@+id/imageView"
+                android:padding="15dp"
+                android:text="In order to achieve the free flow of goods and services, with work and capital between the member countries, they needed to establish mutual politics in areas as diverse as agriculture, transport, and when they concerned with a far wider range of Issues.In order to achieve the free flow of goods and services, with work and capital between the member countries, they needed to establish mutual politics in areas as diverse as agriculture, transport, and when they concerned with a far wider range of Issues."
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>-->
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inquire"
+        />
+</LinearLayout>
